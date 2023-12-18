@@ -47,7 +47,7 @@
   background-size: cover;
   text-align: center;
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   justify-content: center;
 
   &__content {
@@ -72,10 +72,11 @@
 
 @media screen and (max-width: 1260px) {
   .new-collection {
+    height: auto;
     grid-template-columns: minmax(100px, auto);
   }
   .image-block {
-    height: 630px;
+    height: 530px;
     background-position: left;
     background-position: top;
   }
@@ -84,6 +85,9 @@
   }
 }
 @media screen and (max-width: 767px) {
+  .new-collection {
+    height: auto;
+  }
   .image-block {
     background-position: left;
   }
