@@ -23,6 +23,17 @@ a {
   text-decoration: none;
 }
 
+a,
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
 /* Container*/
 .container {
   max-width: 360px;
