@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
 
+  color: $primary-text-color;
   font-family: "Post No Bills Jaffna", sans-serif;
   font-family: "PT Sans", sans-serif;
   font-family: "Playfair Display", serif;
@@ -32,6 +33,44 @@ h3 {
   padding: 0;
   border: 0;
   vertical-align: baseline;
+}
+
+/*common items*/
+.button {
+  padding: 12px 28px;
+  display: inline-block;
+  border: solid 1px $primary-text-color;
+  color: $primary-text-color;
+  font-family: PT Sans;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.card {
+  display: inline-block;
+  width: 260px;
+  height: 405px;
+  overflow: hidden;
+
+  &__image-block {
+    width: 260px;
+    height: 325px;
+    background-color: $card-background-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__image {
+    width: 215px;
+    height: 264px;
+  }
+  &__name {
+    margin-top: 25px;
+  }
+  &__price {
+    margin-top: 10px;
+  }
 }
 
 /* Container*/

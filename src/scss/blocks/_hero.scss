@@ -1,6 +1,6 @@
 .hero-section {
   height: 810px;
-  background: url(../images/hero/hero_image.png);
+  background: url(../images/hero/hero_background.png);
   background-size: no-repeat;
   background-position: center;
   background-size: cover;
@@ -50,9 +50,11 @@
 // @media screen and (max-width: 480px) {
 // }
 
-// @media screen and (max-width: 767px) {
-
-// }
+@media screen and (max-width: 767px) {
+  .hero__text {
+    width: 320px;
+  }
+}
 
 // @media screen and (max-width: 1280px) and (min-width: 1919px) {
 // }
