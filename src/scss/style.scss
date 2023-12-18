@@ -1,11 +1,12 @@
 @import "normalize.css";
 @import "./commons/variables";
+@import "./commons/commons";
 
 @import "./blocks/header";
 @import "./blocks/hero";
-@import "./blocks/newGoods";
 @import "./blocks/newCollection";
 @import "./blocks/oldCollection";
+@import "./blocks/newGoods";
 @import "./blocks/articles";
 @import "./blocks/ourPartners";
 @import "./blocks/footer";

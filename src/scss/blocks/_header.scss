@@ -1,0 +1,88 @@
+.top-bar-section {
+  background-color: $primary-color;
+  color: $secondary-text-color;
+  font-family: PT Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+}
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  height: 44px;
+
+  & span {
+    margin-left: 15px;
+  }
+
+  &__contacts {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  &__contacts-item:first-child {
+    display: flex;
+    align-items: center;
+  }
+
+  &__contacts-item:not(:first-child)::before {
+    content: "";
+    position: absolute;
+    top: 17px;
+    width: 1px;
+    height: 1em;
+    background-color: $secondary-text-color;
+  }
+  &__contacts-item:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  &__login-registration {
+    display: flex;
+    align-items: center;
+    & span {
+      margin: 0 3px 0 3px;
+    }
+  }
+  &__icon-login {
+    margin-right: 19px;
+  }
+  &__login-link {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.nav-section {
+  background-color: $secondary-color;
+  color: $primary-text-color;
+  font-family: PT Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    font-family: Post No Bills Jaffna;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+.nav-list {
+  display: flex;
+}
