@@ -25,6 +25,7 @@
   <body>
     <!-- Header seciton -->
     <header>
+      <!-- Top bar  -->
       <section class="top-bar-section">
         <div class="container">
           <div class="top-bar">
@@ -73,27 +74,38 @@
           </div>
         </div>
       </section>
+      <!-- Navigation  -->
       <section class="nav-section">
-        <div class="container nav-section__container">
-          <span class="nav-section__logo">PORTEN</span>
-          <nav>
+        <div class="container nav-section__block">
+          <a href="index.html">
+            <span class="nav-section__logo">PORTEN</span>
+          </a>
+          <nav class="nav">
             <ul class="nav-list">
-              <li class="nav-list__item"><a href="#">СПОДОБАЛОСЬ</a></li>
+              <li class="nav-list__item active">
+                <a href="#">СПОДОБАЛОСЬ</a>
+              </li>
               <li class="nav-list__item">
                 <a href="#">ОСОБИСТИЙ КАБІНЕТ</a>
               </li>
-              <li class="nav-list__item"><a href="#">НАЛАШТУВАННЯ</a></li>
               <li class="nav-list__item">
+                <a href="#">НАЛАШТУВАННЯ</a>
+              </li>
+            </ul>
+
+            <ul class="nav-icons">
+              <li class="nav-icons__item">
                 <a href="#"
                   ><svg viewBox="0 0 22 22" width="22" height="22">
                     <use
                       href="./src/images/header/icons_sprite.svg#cart"
                       x="0"
                       y="0"
-                    ></use></svg
-                ></a>
+                    ></use>
+                  </svg>
+                </a>
               </li>
-              <li class="nav-list__item">
+              <li class="nav-icons__item">
                 <a href="#"
                   ><svg viewBox="0 0 22 22" width="22" height="22">
                     <use

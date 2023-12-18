@@ -14,6 +14,7 @@ body {
 ol,
 ul {
   list-style: none;
+  margin: 0;
 }
 
 /* Reset anchor styles */
@@ -22,9 +23,10 @@ a {
   text-decoration: none;
 }
 
+/* Container*/
 .container {
   max-width: 360px;
-  margin: 0, auto;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -71,8 +73,8 @@ a {
 }
 
 .top-bar {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto auto;
   height: 44px;
 }
 .top-bar span {
@@ -101,6 +103,7 @@ a {
 .top-bar__login-registration {
   display: flex;
   align-items: center;
+  justify-content: end;
 }
 .top-bar__login-registration span {
   margin: 0 3px 0 3px;
@@ -115,22 +118,20 @@ a {
 
 .nav-section {
   background-color: #0f0f0f;
-  color: #fff;
+  color: #808080;
   font-family: PT Sans;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80px;
 }
-.nav-section__container {
-  display: flex;
-  justify-content: space-between;
+.nav-section__block {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
 }
 .nav-section__logo {
+  color: #fff;
   font-family: Post No Bills Jaffna;
   font-size: 36px;
   font-style: normal;
@@ -138,6 +139,50 @@ a {
   line-height: normal;
 }
 
+.nav {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
 .nav-list {
-  display: flex;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.nav-list__item {
+  padding: 31px 18px;
+}
+
+.active {
+  color: #fff;
+  background-color: #1f1f1f;
+}
+
+.nav-icons {
+  display: grid;
+  gap: 20px;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
+}
+
+@media screen and (max-width: 767px) {
+  .top-bar {
+    grid-template-columns: auto auto;
+  }
+  .top-bar__contacts-item:not(:first-child) {
+    display: none;
+  }
+  .nav-section__block {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+  }
+  .nav-list {
+    grid-template-columns: auto;
+    align-items: start;
+  }
+  .nav-list__item {
+    padding: 10px 18px;
+  }
 }/*# sourceMappingURL=style.css.map */
