@@ -687,4 +687,122 @@ h3 {
   .partners-block__list {
     grid-template-columns: auto;
   }
+}
+.footer-section {
+  background-color: #000;
+}
+
+.footer-content-block {
+  background-image: url(../images/footer/background.png);
+  padding-top: 80px;
+  padding-bottom: 68px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-titles {
+  font-size: 24px;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.footer-text {
+  font-family: PT Sans;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.footer-about {
+  max-width: 351px;
+}
+
+.footer-categories {
+  max-width: 350px;
+}
+.footer-categories__list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  color: #d0d0d0;
+  font-family: PT Sans;
+  font-size: 14px;
+  line-height: 150%;
+  text-transform: lowercase;
+  padding: 0;
+}
+.footer-categories__item {
+  background-color: #0f0f0f;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.footer-messages {
+  max-width: 350px;
+}
+.footer-messages p {
+  margin-bottom: 26px;
+}
+
+.footer-form {
+  border: none;
+  display: flex;
+  justify-content: flex-start;
+}
+.footer-form__input {
+  width: 210px;
+  height: 41px;
+  border: none;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 0 0 5px 20px;
+}
+.footer-form__input::-moz-placeholder {
+  color: #fff;
+  font-family: PT Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.footer-form__input::placeholder {
+  color: #fff;
+  font-family: PT Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.footer-form__button {
+  width: 137px;
+  height: 41px;
+  background-color: #0f0f0f;
+  color: #fff;
+  border: 0px;
+  padding: 10px 20px;
+  font-family: PT Sans;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  line-height: 150%;
+  cursor: pointer;
+}
+
+.footer-bar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  color: #d0d0d0;
+  font-family: PT Sans;
+  font-size: 12px;
+}
+.footer-bar a {
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
