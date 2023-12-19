@@ -42,7 +42,6 @@
   &__content-block {
     max-width: 800px;
     padding: 53px 25px 53px 25px;
-    // height: 437px;
   }
   &__content {
     margin: 0 auto;
@@ -72,7 +71,7 @@
     align-items: end;
   }
   &__tags-block {
-    max-width: 438px;
+    max-width: 470px;
   }
   &__tag-list {
     padding-top: 20px;
@@ -91,13 +90,10 @@
   }
 }
 
-// @media screen and (max-width: 1260px) {
-
-// }
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1050px) {
   .articles-item {
     grid-template-columns: auto;
+    justify-content: center;
     &__image-block {
       max-width: 990px;
       height: 297px;
