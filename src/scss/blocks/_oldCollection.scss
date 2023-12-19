@@ -37,7 +37,8 @@
     width: 120px;
     height: 1px;
     bottom: -30px;
-    transform: translateX(-150%);
+    left: 50%;
+    transform: translateX(-50%);
     background-color: $primary-text-color;
   }
 

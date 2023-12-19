@@ -29,7 +29,9 @@
   width: 120px;
   height: 1px;
   bottom: -40px;
-  transform: translateX(-210%);
+  left: 50%;
+  transform: translateX(-50%);
+
   background-color: $primary-text-color;
 }
 .goods-block {

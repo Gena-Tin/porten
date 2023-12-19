@@ -74,6 +74,12 @@ h3 {
 }
 
 /* Container*/
+.section-container {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1920px;
+}
+
 .container {
   max-width: 360px;
   margin: 0 auto;

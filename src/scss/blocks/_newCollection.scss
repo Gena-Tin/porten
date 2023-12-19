@@ -21,7 +21,8 @@
   width: 120px;
   height: 1px;
   bottom: -50px;
-  transform: translateX(-150%);
+  left: 50%;
+  transform: translateX(-50%);
   background-color: $primary-text-color;
 }
 
@@ -62,7 +63,8 @@
   width: 120px;
   height: 1px;
   bottom: 185px;
-  transform: translateX(-180%);
+  left: 50%;
+  transform: translateX(-50%);
   background-color: $primary-text-color;
 }
 
