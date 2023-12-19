@@ -3,13 +3,16 @@
 }
 .footer-content-block {
   background-image: url(../images/footer/background.png);
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding-top: 80px;
   padding-bottom: 68px;
 }
 .footer-content {
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  justify-content: center;
+  //   justify-content: center;
   gap: 30px;
 }
 .footer-titles {
@@ -111,5 +114,19 @@
 
   & a {
     text-decoration: underline;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .footer-content {
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .footer-content {
+    grid-template-columns: auto;
+    // justify-content: center;
   }
 }
