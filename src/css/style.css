@@ -47,6 +47,7 @@ h3 {
   text-transform: uppercase;
 }
 
+/* pruduct card */
 .card {
   display: inline-block;
   width: 260px;
@@ -88,31 +89,27 @@ h3 {
 
 @media screen and (min-width: 480px) {
   .container {
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 360px;
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 360px;
     max-width: none;
   }
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
-    padding-left: 15px;
-    padding-right: 15px;
+    max-width: 768px;
   }
 }
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1280px;
-    padding-left: 20px;
-    padding-right: 20px;
+    max-width: 1110px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 @media screen and (min-width: 1920px) {
   .container {
-    width: 1920px;
-    padding-left: 0px;
-    padding-right: 0px;
+    width: 1110px;
   }
 }
 .top-bar-section {
@@ -131,6 +128,7 @@ h3 {
   display: grid;
   grid-template-columns: auto auto;
   height: 44px;
+  width: 100%;
 }
 .top-bar span {
   margin-left: 15px;
@@ -294,12 +292,15 @@ h3 {
     width: 320px;
   }
 }
+.new-collection-section {
+  background-color: #000;
+}
+
 .new-collection {
   height: 730px;
   display: grid;
   grid-template-columns: auto minmax(100px, 880px);
   gap: 50px;
-  background-color: #000;
 }
 
 .title-box {
@@ -369,7 +370,7 @@ h3 {
   margin-top: 60px;
 }
 
-@media screen and (max-width: 1260px) {
+@media screen and (max-width: 1440px) {
   .new-collection {
     height: auto;
     grid-template-columns: minmax(100px, auto);
@@ -391,10 +392,13 @@ h3 {
     background-position: left;
   }
 }
+.old-collection-section {
+  background-color: #000;
+}
+
 .old-collection {
   height: 600px;
   position: relative;
-  background-color: #000;
   display: grid;
   grid-template-columns: minmax(10px, 936px) auto;
 }
@@ -441,7 +445,7 @@ h3 {
   margin-top: 64px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1280px) {
   .old-collection {
     grid-template-columns: auto;
   }
@@ -503,7 +507,8 @@ h3 {
 .lastcard-button {
   position: absolute;
   top: 140px;
-  left: 30px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 @media screen and (max-width: 1260px) {
@@ -517,7 +522,7 @@ h3 {
     max-width: 860px;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 920px) {
   .new-goods__list {
     row-gap: 40px;
     -moz-column-gap: 23px;
@@ -526,6 +531,14 @@ h3 {
   }
   .goods-block {
     max-width: 560px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .new-goods__list {
+    grid-template-columns: 1fr;
+  }
+  .new-goods__list-item:not(:nth-last-child(-n+4)) {
+    display: none;
   }
 }
 .articles-section {

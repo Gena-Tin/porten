@@ -1,7 +1,9 @@
+.old-collection-section {
+  background-color: $primary-color;
+}
 .old-collection {
   height: 600px;
   position: relative;
-  background-color: $primary-color;
   display: grid;
   grid-template-columns: minmax(10px, 936px) auto;
 
@@ -57,7 +59,7 @@
 
 // }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1280px) {
   .old-collection {
     grid-template-columns: auto;
     &__image-block {

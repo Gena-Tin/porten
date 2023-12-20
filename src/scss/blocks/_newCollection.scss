@@ -1,9 +1,12 @@
+.new-collection-section {
+  background-color: $primary-color;
+}
+
 .new-collection {
   height: 730px;
   display: grid;
   grid-template-columns: auto minmax(100px, 880px);
   gap: 50px;
-  background-color: $primary-color;
 }
 .title-box {
   position: relative;
@@ -72,7 +75,7 @@
   margin-top: 60px;
 }
 
-@media screen and (max-width: 1260px) {
+@media screen and (max-width: 1440px) {
   .new-collection {
     height: auto;
     grid-template-columns: minmax(100px, auto);

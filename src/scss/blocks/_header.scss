@@ -16,6 +16,7 @@
   display: grid;
   grid-template-columns: auto auto;
   height: 44px;
+  width: 100%;
 
   & span {
     margin-left: 15px;
@@ -60,6 +61,7 @@
     align-items: center;
   }
 }
+
 // Navigation
 .nav-section {
   background-color: $secondary-color;

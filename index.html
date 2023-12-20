@@ -27,52 +27,52 @@
     <header>
       <!-- Top bar  -->
       <section class="top-bar-section">
-        <div class="container">
-          <div class="top-bar">
-            <ul class="top-bar__contacts">
-              <li class="top-bar__contacts-item">
-                <svg
-                  class="top-bar__icon-phone"
-                  viewBox="0 0 16 16"
-                  width="16"
-                  height="16"
-                >
-                  <use
-                    href="./src/images/header/icons_sprite.svg#phoneTube"
-                    x="0"
-                    y="0"
-                  ></use>
-                </svg>
-                <span>8 (812) 123-45-67</span>
-              </li>
-              <li class="top-bar__contacts-item">
-                <span>Працюємо 7 днів на тиждень </span>
-              </li>
-              <li class="top-bar__contacts-item">
-                <span>9:00 — 18:00</span>
-              </li>
-            </ul>
-            <div class="top-bar__login-registration">
-              <a href="#" class="top-bar__login-link">
-                <svg
-                  class="top-bar__icon-login"
-                  viewBox="0 0 16 16"
-                  width="16"
-                  height="16"
-                >
-                  <use
-                    href="./src/images/header/icons_sprite.svg#logIn"
-                    x="0"
-                    y="0"
-                  ></use>
-                </svg>
-                <span>Вхід</span>
-              </a>
-              <span>/</span>
-              <a href="#">Реєстрація</a>
-            </div>
+        <!-- <div class="container"> -->
+        <div class="container top-bar">
+          <ul class="top-bar__contacts">
+            <li class="top-bar__contacts-item">
+              <svg
+                class="top-bar__icon-phone"
+                viewBox="0 0 16 16"
+                width="16"
+                height="16"
+              >
+                <use
+                  href="./src/images/header/icons_sprite.svg#phoneTube"
+                  x="0"
+                  y="0"
+                ></use>
+              </svg>
+              <a href="tel:+388121234567"><span>8 (812) 123-45-67</span></a>
+            </li>
+            <li class="top-bar__contacts-item">
+              <span>Працюємо 7 днів на тиждень </span>
+            </li>
+            <li class="top-bar__contacts-item">
+              <span>9:00 — 18:00</span>
+            </li>
+          </ul>
+          <div class="top-bar__login-registration">
+            <a href="#" class="top-bar__login-link">
+              <svg
+                class="top-bar__icon-login"
+                viewBox="0 0 16 16"
+                width="16"
+                height="16"
+              >
+                <use
+                  href="./src/images/header/icons_sprite.svg#logIn"
+                  x="0"
+                  y="0"
+                ></use>
+              </svg>
+              <span>Вхід</span>
+            </a>
+            <span>/</span>
+            <a href="#">Реєстрація</a>
           </div>
         </div>
+        <!-- </div> -->
       </section>
       <!-- Navigation  -->
       <section class="nav-section">
@@ -86,7 +86,7 @@
                 <a href="#">СПОДОБАЛОСЬ</a>
               </li>
               <li class="nav-list__item">
-                <a href="#">ОСОБИСТИЙ КАБІНЕТ</a>
+                <a href="#">ОСОБИСТИЙ&nbsp;КАБІНЕТ</a>
               </li>
               <li class="nav-list__item">
                 <a href="#">НАЛАШТУВАННЯ</a>
@@ -142,85 +142,94 @@
       </section>
 
       <!-- New collection section  -->
-      <section class="new-collection">
-        <div class="collections-block">
-          <div class="title-box">
-            <h2 class="title">СЕЗОН 2021/22</h2>
-          </div>
-          <div class="cards-block">
-            <div class="card">
-              <div class="card__image-block">
-                <img
-                  src="./src/images/newCollection/img_1.png"
-                  alt="Louis XVI ATHOS"
-                  class="card__image"
-                />
+      <section class="new-collection-section">
+        <div class="section-container">
+          <div class="new-collection">
+            <div class="collections-block">
+              <div class="title-box">
+                <h2 class="title">СЕЗОН 2021/22</h2>
               </div>
-              <p class="card__name">Louis XVI ATHOS</p>
-              <p class="card__price">13 600 грн.</p>
+              <div class="cards-block">
+                <div class="card">
+                  <div class="card__image-block">
+                    <img
+                      src="./src/images/newCollection/img_1.png"
+                      alt="Louis XVI ATHOS"
+                      class="card__image"
+                    />
+                  </div>
+                  <p class="card__name">Louis XVI ATHOS</p>
+                  <p class="card__price">13 600 грн.</p>
+                </div>
+
+                <div class="card">
+                  <div class="card__image-block">
+                    <img
+                      src="./src/images/newCollection/img_2.png"
+                      alt="Carl von Zeyten"
+                      class="card__image"
+                    />
+                  </div>
+                  <p class="card__name">Carl von Zeyten</p>
+                  <p class="card__price">16 500 грн.</p>
+                </div>
+
+                <div class="card">
+                  <div class="card__image-block">
+                    <img
+                      src="./src/images/newCollection/img_3.png"
+                      alt="JORD AR5905"
+                      class="card__image"
+                    />
+                  </div>
+                  <p class="card__name">JORD AR5905</p>
+                  <p class="card__price">65 000 грн.</p>
+                </div>
+              </div>
             </div>
 
-            <div class="card">
-              <div class="card__image-block">
-                <img
-                  src="./src/images/newCollection/img_2.png"
-                  alt="Carl von Zeyten"
-                  class="card__image"
-                />
+            <div class="image-block">
+              <div class="image-block__content">
+                <h2 class="title line">Нова колекція</h2>
+                <a href="#">
+                  <div class="catalog__button button">Каталог</div>
+                </a>
               </div>
-              <p class="card__name">Carl von Zeyten</p>
-              <p class="card__price">16 500 грн.</p>
             </div>
-
-            <div class="card">
-              <div class="card__image-block">
-                <img
-                  src="./src/images/newCollection/img_3.png"
-                  alt="JORD AR5905"
-                  class="card__image"
-                />
-              </div>
-              <p class="card__name">JORD AR5905</p>
-              <p class="card__price">65 000 грн.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="image-block">
-          <div class="image-block__content">
-            <h2 class="title line">Нова колекція</h2>
-            <a href="#">
-              <div class="catalog__button button">Каталог</div>
-            </a>
           </div>
         </div>
       </section>
 
       <!-- Old collection section  -->
-      <section class="old-collection">
-        <div class="old-collection__image-block"></div>
-        <div class="old-collection__content-block">
-          <div class="old-collection__content">
-            <h2 class="old-collection__title">колекція 2018</h2>
-            <p class="old-collection__text">
-              Годинники як інструмент визначення часу давно і надійно прижилися
-              в людській реальності. Романтики та прагматики, художники та
-              бізнесмени, чоловіки та жінки, дорослі та діти - всі хочуть знати
-              котра година в потрібний момент. Скільки хвилин пройшло, скільки
-              залишилося, а ще - які саме моделі і якого бренду виблискують на
-              руці у друга, коханої або конкурента. З давніх часів, коли людина
-              здогадався втикнути в землю паличку та іншою поличкою взявся
-              відміряти рівні проміжки часу на піску, не вщухають суперечки -
-              яким повинний бути годинник? Наручним, або настільним, або
-              настінним, або, нарешті, підлоговим? Чому ж кожен діамантик на
-              безеле або шестерінка в механізмі незмінно змушують гордовито
-              випнутися нижню губу володаря аксесуара, а щоки - роздутися?
-            </p>
-            <a href="#">
-              <div class="old-collection__button button">
-                переглянути колекцію
+      <section class="old-collection-section">
+        <div class="section-container">
+          <div class="old-collection">
+            <div class="old-collection__image-block"></div>
+            <div class="old-collection__content-block">
+              <div class="old-collection__content">
+                <h2 class="old-collection__title">колекція 2018</h2>
+                <p class="old-collection__text">
+                  Годинники як інструмент визначення часу давно і надійно
+                  прижилися в людській реальності. Романтики та прагматики,
+                  художники та бізнесмени, чоловіки та жінки, дорослі та діти -
+                  всі хочуть знати котра година в потрібний момент. Скільки
+                  хвилин пройшло, скільки залишилося, а ще - які саме моделі і
+                  якого бренду виблискують на руці у друга, коханої або
+                  конкурента. З давніх часів, коли людина здогадався втикнути в
+                  землю паличку та іншою поличкою взявся відміряти рівні
+                  проміжки часу на піску, не вщухають суперечки - яким повинний
+                  бути годинник? Наручним, або настільним, або настінним, або,
+                  нарешті, підлоговим? Чому ж кожен діамантик на безеле або
+                  шестерінка в механізмі незмінно змушують гордовито випнутися
+                  нижню губу володаря аксесуара, а щоки - роздутися?
+                </p>
+                <a href="#">
+                  <div class="old-collection__button button">
+                    переглянути колекцію
+                  </div>
+                </a>
               </div>
-            </a>
+            </div>
           </div>
         </div>
       </section>
@@ -331,7 +340,7 @@
                   />
                 </div>
                 <a href="#" class="lastcard-button">
-                  <div class="button">ПОКАЗАТИ ВСІ</div>
+                  <div class="button">ПОКАЗАТИ&nbsp;ВСІ</div>
                 </a>
               </div>
             </li>
