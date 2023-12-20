@@ -124,7 +124,8 @@
 
 .nav-icons {
   display: grid;
-  gap: 20px;
+  gap: 40px;
+  padding-left: 20px;
   align-items: center;
   grid-template-columns: 1fr 1fr;
   justify-items: end;
@@ -135,17 +136,7 @@
   }
 }
 
-// @media screen and (max-width: 480px) {
-// }
-
 @media screen and (max-width: 940px) {
-  .top-bar {
-    grid-template-columns: auto auto;
-    &__contacts-item:not(:first-child) {
-      display: none;
-    }
-  }
-
   .nav-section__block {
     grid-template-columns: 1fr;
     align-items: center;
@@ -160,5 +151,13 @@
   }
 }
 
+@media screen and (max-width: 770px) {
+  .top-bar {
+    grid-template-columns: auto auto;
+    &__contacts-item:not(:first-child) {
+      display: none;
+    }
+  }
+}
 // @media screen and (max-width: 1280px) and (min-width: 1919px) {
 // }

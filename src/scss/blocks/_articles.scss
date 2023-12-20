@@ -1,5 +1,6 @@
 .articles-section {
-  background-color: $primary-color;
+  padding-top: 64px;
+  background-color: $secondary-color;
 }
 
 .articles-section-title {
@@ -44,7 +45,7 @@
     padding: 53px 25px 53px 25px;
   }
   &__content {
-    margin: 0 auto;
+    // margin: 0 auto;
     max-width: 628px;
   }
   &__title {

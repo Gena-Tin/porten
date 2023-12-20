@@ -72,9 +72,11 @@ h3 {
     height: 264px;
   }
   &__name {
+    text-align: left;
     margin-top: 25px;
   }
   &__price {
+    text-align: left;
     margin-top: 10px;
   }
 }
