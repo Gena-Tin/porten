@@ -84,6 +84,11 @@
     line-height: normal;
     letter-spacing: 1.8px;
     text-transform: uppercase;
+    &:hover,
+    &:focus {
+      outline: none;
+      color: $secondary-text-color;
+    }
   }
   &__tag:not(:first-child) {
     margin-left: 12px;

@@ -52,6 +52,11 @@
     background-color: $secondary-color;
     display: inline-block;
     padding: 10px 20px;
+    &:hover,
+    &:focus {
+      outline: none;
+      background-color: $accent-color;
+    }
   }
 }
 
@@ -99,6 +104,11 @@
     letter-spacing: 0.7px;
     line-height: 150%;
     cursor: pointer;
+    &:hover,
+    &:focus {
+      outline: none;
+      background-color: $accent-color;
+    }
   }
 }
 
@@ -114,6 +124,11 @@
 
   & a {
     text-decoration: underline;
+    &:hover,
+    &:focus {
+      outline: none;
+      color: $primary-text-color;
+    }
   }
 }
 
