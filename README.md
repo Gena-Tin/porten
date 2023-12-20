@@ -12,10 +12,12 @@ The page is developed using the following technologies: HTML, CSS, SCSS, and JS.
 
 ## Screenshots
 
-_Main page_
+#### Main page:
+
 ![Website Page Screenshot](/public/images/site.png)
 
-_Slider_
+#### Slider:
+
 ![Slider Screenshot](/public/images/slider.png)
 
 ## Installation and Running
