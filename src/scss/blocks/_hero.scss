@@ -6,7 +6,6 @@
   background-size: cover;
   width: 100%;
   display: flex;
-  //   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -47,14 +46,9 @@
     width: 735px;
   }
 }
-// @media screen and (max-width: 480px) {
-// }
 
 @media screen and (max-width: 767px) {
   .hero__text {
     width: 320px;
   }
 }
-
-// @media screen and (max-width: 1280px) and (min-width: 1919px) {
-// }

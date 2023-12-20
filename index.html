@@ -17,6 +17,12 @@
       rel="stylesheet"
     />
 
+    <!-- swiper  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="./src/css/style.css" />
     <!-- <link rel="stylesheet" href="./src/css/style.min.css" > -->
 
@@ -139,7 +145,7 @@
         </div>
       </section>
 
-      <!-- New collection section  -->
+      <!-- New collection section  + SWIPER -->
       <section class="new-collection-section">
         <div class="section-container">
           <div class="new-collection">
@@ -147,44 +153,59 @@
               <div class="title-box">
                 <h2 class="title">СЕЗОН 2021/22</h2>
               </div>
-              <div class="cards-block">
-                <!-- card 1  -->
-                <div class="card">
-                  <div class="card__image-block">
-                    <img
-                      src="./src/images/newCollection/img_1.png"
-                      alt="Louis XVI ATHOS"
-                      class="card__image"
-                    />
+              <div class="swiper">
+                <div class="cards-block swiper-wrapper">
+                  <!-- card 1  -->
+                  <div class="card swiper-slide">
+                    <div class="card__image-block">
+                      <img
+                        src="./src/images/newCollection/img_1.png"
+                        alt="Louis XVI ATHOS"
+                        class="card__image"
+                      />
+                    </div>
+                    <p class="card__name">Louis XVI ATHOS</p>
+                    <p class="card__price">13 600 грн.</p>
                   </div>
-                  <p class="card__name">Louis XVI ATHOS</p>
-                  <p class="card__price">13 600 грн.</p>
-                </div>
 
-                <!-- card 2  -->
-                <div class="card">
-                  <div class="card__image-block">
-                    <img
-                      src="./src/images/newCollection/img_2.png"
-                      alt="Carl von Zeyten"
-                      class="card__image"
-                    />
+                  <!-- card 2  -->
+                  <div class="card swiper-slide">
+                    <div class="card__image-block">
+                      <img
+                        src="./src/images/newCollection/img_2.png"
+                        alt="Carl von Zeyten"
+                        class="card__image"
+                      />
+                    </div>
+                    <p class="card__name">Carl von Zeyten</p>
+                    <p class="card__price">16 500 грн.</p>
                   </div>
-                  <p class="card__name">Carl von Zeyten</p>
-                  <p class="card__price">16 500 грн.</p>
-                </div>
 
-                <!-- card 3  -->
-                <div class="card">
-                  <div class="card__image-block">
-                    <img
-                      src="./src/images/newCollection/img_3.png"
-                      alt="JORD AR5905"
-                      class="card__image"
-                    />
+                  <!-- card 3  -->
+                  <div class="card swiper-slide">
+                    <div class="card__image-block">
+                      <img
+                        src="./src/images/newCollection/img_3.png"
+                        alt="JORD AR5905"
+                        class="card__image"
+                      />
+                    </div>
+                    <p class="card__name">JORD AR5905</p>
+                    <p class="card__price">65 000 грн.</p>
                   </div>
-                  <p class="card__name">JORD AR5905</p>
-                  <p class="card__price">65 000 грн.</p>
+
+                  <!-- card 4  -->
+                  <div class="card swiper-slide">
+                    <div class="card__image-block">
+                      <img
+                        src="./src/images/newCollection/img_4.png"
+                        alt="Gucci Men's G"
+                        class="card__image"
+                      />
+                    </div>
+                    <p class="card__name">Gucci Men's G</p>
+                    <p class="card__price">38 500 грн.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -601,6 +622,7 @@
         <a href="#">Угода користувача</a>
       </div>
     </footer>
-    <script type="module" src="/src/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="/src/js/swiper.js"></script>
   </body>
 </html>

@@ -45,7 +45,6 @@
     padding: 53px 25px 53px 25px;
   }
   &__content {
-    // margin: 0 auto;
     max-width: 628px;
   }
   &__title {
@@ -105,8 +104,6 @@
       height: 297px;
     }
     &__content-block {
-      // max-width: 800px;
-      // padding: 53px 25px 53px 25px;
       height: auto;
     }
     &__bottom-block {
@@ -115,13 +112,4 @@
       grid-template-columns: auto;
     }
   }
-  //   .articles-section-title::after {
-  //     content: "";
-  //     position: absolute;
-  //     width: 120px;
-  //     height: 1px;
-  //     bottom: -38px;
-  //     transform: translateX(-150%);
-  //     background-color: $primary-text-color;
-  //   }
 }

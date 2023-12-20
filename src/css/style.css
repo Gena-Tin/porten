@@ -118,6 +118,24 @@ h3 {
     width: 1110px;
   }
 }
+.swiper {
+  width: 250px;
+  height: 500px;
+}
+
+@media screen and (min-width: 680px) {
+  .swiper {
+    width: 600px;
+    height: 500px;
+  }
+}
+@media screen and (min-width: 970px) {
+  .swiper {
+    padding-left: 50px;
+    width: 880px;
+    height: 500px;
+  }
+}
 .top-bar-section {
   background-color: #000;
   color: #808080;
@@ -358,10 +376,7 @@ h3 {
 }
 
 .cards-block {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: center;
-  gap: 50px;
+  margin: 0 auto;
   margin-top: 100px;
 }
 
@@ -416,10 +431,6 @@ h3 {
   }
   .image-block {
     background-position: left;
-  }
-  .cards-block {
-    gap: 30px;
-    grid-template-columns: auto;
   }
 }
 .old-collection-section {

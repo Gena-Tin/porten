@@ -8,7 +8,6 @@
   grid-template-columns: minmax(10px, 936px) auto;
 
   &__image-block {
-    // width: 936px;
     background: url(../images/oldCollection/background.png);
     background-size: no-repeat;
     background-position: center;
@@ -54,10 +53,6 @@
     margin-top: 64px;
   }
 }
-
-// @media screen and (max-width: 1260px) {
-
-// }
 
 @media screen and (max-width: 1280px) {
   .old-collection {
