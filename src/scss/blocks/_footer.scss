@@ -144,4 +144,15 @@
     grid-template-columns: auto;
     // justify-content: center;
   }
+  .footer-form {
+    flex-direction: column;
+    align-items: center;
+    &__input {
+      width: 220px;
+    }
+    &__button {
+      margin-top: 10px;
+      width: 220px;
+    }
+  }
 }

@@ -89,11 +89,15 @@
     padding-top: 50px;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 920px) {
   .new-collection {
     height: auto;
   }
   .image-block {
     background-position: left;
+  }
+  .cards-block {
+    gap: 30px;
+    grid-template-columns: auto;
   }
 }

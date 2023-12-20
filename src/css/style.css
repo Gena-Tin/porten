@@ -240,7 +240,7 @@ h3 {
   transform: scale(1.3);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 940px) {
   .top-bar {
     grid-template-columns: auto auto;
   }
@@ -405,12 +405,16 @@ h3 {
     padding-top: 50px;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 920px) {
   .new-collection {
     height: auto;
   }
   .image-block {
     background-position: left;
+  }
+  .cards-block {
+    gap: 30px;
+    grid-template-columns: auto;
   }
 }
 .old-collection-section {
@@ -868,5 +872,16 @@ h3 {
 @media screen and (max-width: 920px) {
   .footer-content {
     grid-template-columns: auto;
+  }
+  .footer-form {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-form__input {
+    width: 220px;
+  }
+  .footer-form__button {
+    margin-top: 10px;
+    width: 220px;
   }
 }/*# sourceMappingURL=style.css.map */
