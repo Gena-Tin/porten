@@ -6,7 +6,7 @@ The page is developed using the following technologies: HTML, CSS, SCSS, and JS.
 
 ## Key Features
 
-- Developed using HTML, CSS, SCSS, and JS.
+- Developed using Vite, HTML, CSS, SCSS, and JS.
 - Integrated slider "Swiper" for convenient product browsing.
 - Responsive design for optimal viewing on all devices.
 
